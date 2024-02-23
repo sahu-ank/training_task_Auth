@@ -25,7 +25,6 @@ namespace training_task_Auth.Controllers
             ViewBag.Username = username;
             ViewBag.Role = role;
         }
-
         public IActionResult Index()
         {
             SetSessionDataInViewBag();
